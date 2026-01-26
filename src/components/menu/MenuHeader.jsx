@@ -34,7 +34,7 @@ function MenuHeader({ language, onLanguageChange }) {
     language === 'en' ? 'text-red-700' : 'text-gray-400'
   }`}
 >
-  <img src={gbFlag} alt="English" className="w-7 h-7" />
+  <img src={gbFlag} alt="English" className="w-5 h-5" />
   EN
 </span>
 
@@ -51,7 +51,7 @@ function MenuHeader({ language, onLanguageChange }) {
     language === 'gr' ? 'text-red-700' : 'text-gray-400'
   }`}
 >
-  <img src={grFlag} alt="Greek" className="w-6 h-6" />
+  <img src={grFlag} alt="Greek" className="w-5 h-5" />
   GR
 </span>
 </div>
