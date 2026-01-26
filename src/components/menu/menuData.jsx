@@ -231,7 +231,7 @@ export const menuData = {
 {
   id: 'salad-2',
   name_en: 'Caesar Salad',
-  name_gr: 'Σαλάτα Σίζαρ',
+  name_gr: 'Σαλάτα του Καίσαρα',
   desc_en: 'Iceberg lettuce, chicken fillet, bacon, parmesan, croutons',
   desc_gr: 'Μαρούλι iceberg, φιλέτο κοτόπουλο, μπέικον, παρμεζάνα, κρουτόν',
   price: 8.00,
@@ -245,14 +245,7 @@ export const menuData = {
   price: 8.00,
   vegetarian: true,
 },
-{
-  id: 'salad-4',
-  name_en: 'Caesar Salad (Classic)',
-  name_gr: 'Σίζαρ',
-  desc_en: 'Lettuce, chicken fillet, sauce, parmesan, croutons',
-  desc_gr: 'Μαρούλι, φιλέτο κοτόπουλο, σως, παρμεζάνα, κρουτόν',
-  price: 8.50,
-},
+
 {
   id: 'salad-5',
   name_en: 'Tuna Salad',
