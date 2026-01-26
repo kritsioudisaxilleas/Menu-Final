@@ -2,6 +2,9 @@ import React from 'react';
 import { UtensilsCrossed } from 'lucide-react';
 import { Switch } from "@/components/ui/switch";
 import logo from "../../assets/logo.png";
+import gbFlag from '../../assets/flags/gb.svg';
+import grFlag from '../../assets/flags/gr.svg';
+
 
 function MenuHeader({ language, onLanguageChange }) {
   return (
@@ -25,19 +28,33 @@ function MenuHeader({ language, onLanguageChange }) {
         </div>
 
         {/* Language Toggle */}
-        <div className="flex items-center gap-2">
-          <span className={`text-sm font-medium transition-colors ${language === 'en' ? 'text-red-700' : 'text-gray-400'}`}>
-            EN
-          </span>
-          <Switch
-            checked={language === 'gr'}
-            onCheckedChange={(checked) => onLanguageChange(checked ? 'gr' : 'en')}
-            className="data-[state=checked]:bg-red-700 data-[state=unchecked]:bg-red-700"
-          />
-          <span className={`text-sm font-medium transition-colors ${language === 'gr' ? 'text-red-700' : 'text-gray-400'}`}>
-            GR
-          </span>
-        </div>
+       <div className="flex items-center gap-2">
+  <span
+  className={`flex items-center gap-1 text-sm font-medium ${
+    language === 'en' ? 'text-red-700' : 'text-gray-400'
+  }`}
+>
+  <img src={gbFlag} alt="English" className="w-7 h-7" />
+  EN
+</span>
+
+  <Switch
+    checked={language === 'gr'}
+    onCheckedChange={(checked) =>
+      onLanguageChange(checked ? 'gr' : 'en')
+    }
+    className="data-[state=checked]:bg-red-700 data-[state=unchecked]:bg-red-700"
+  />
+
+  <span
+  className={`flex items-center gap-1 text-sm font-medium ${
+    language === 'gr' ? 'text-red-700' : 'text-gray-400'
+  }`}
+>
+  <img src={grFlag} alt="Greek" className="w-6 h-6" />
+  GR
+</span>
+</div>
       </div>
     </header>
   );
