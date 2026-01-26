@@ -22,7 +22,7 @@ function MenuHeader({ language, onLanguageChange }) {
   PizzaTapas
 </h1>
   <p className="text-[11px] text-gray-500 tracking-[0.2em] uppercase">
-    {language === "en" ? "Authentic Italian" : "Αυθεντική Ιταλική"}
+    {language === "en" ? "Authentic Italian" : "Αυθεντική Ιταλικη κουζινα"}
   </p>
 </div>
         </div>
@@ -51,7 +51,7 @@ function MenuHeader({ language, onLanguageChange }) {
     language === 'gr' ? 'text-red-700' : 'text-gray-400'
   }`}
 >
-  <img src={grFlag} alt="Greek" className="w-5 h-5" />
+  <img src={grFlag} alt="Greek" className="w-4 h-4" />
   GR
 </span>
 </div>
