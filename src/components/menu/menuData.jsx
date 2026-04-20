@@ -135,10 +135,10 @@ export const menuData = {
 {
   id: 'pasta-5',
   name_en: 'Puttanesca',
-  name_gr: 'Πουτανέσκα',
+  name_gr: 'ΠTEST ',
   desc_en: 'Tomato sauce, bacon, mushrooms, peppers, olives, capers, anchovy fillets',
   desc_gr: 'Σάλτσα τομάτας, μπέικον, μανιτάρια, πιπεριές, ελιές, κάπαρη, φιλέτα αντζούγιας',
-  price: 8.50,
+  price: 100050,
 },
 {
   id: 'pasta-6',
